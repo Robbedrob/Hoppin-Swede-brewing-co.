@@ -2,6 +2,7 @@
 	background-image: url("barrels.jpg");
 	height: 300px;
 	background-size: cover;
+	margin-top: 10px; 
 
 	}
 h1 {
@@ -9,6 +10,28 @@ h1 {
 	font-size: 500%;
 	text-align: center;
 	color: white;
-	height: 300px;
+	height: 246px;
 	font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+a:link, a:visited {
+	display: block;
+	width: 413px;
+	color: white;
+	background-color: #472400;
+	text-align: center;
+	padding: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover, a:active {
+	background-color: #7E664D;
 }
