@@ -43,6 +43,7 @@ ul {
 	margin: 0;
 	padding: 0;
 	position: absolute;
+	width: 100%;
 }
 li {
 	display: inline-block;
@@ -57,20 +58,20 @@ li a {
 	line-height: 50px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #fff;
-	background: #2f3036;
+	background: #442200;
 	text-decoration: none;
 }
 li:hover a {
-	background: #19c589;
+	background: #FFA319;
 }
 li:hover ul a {
 	background: #f3f3f3;
-	color: #2f3036;
+	color: #442200;
 	height: 40px;
 	line-height: 40px;
 }
 li:hover ul a:hover {
-	background: #19c589;
+	background: #FFA319;
 	color: #fff;
 }
 li ul {
@@ -88,11 +89,11 @@ li ul li a {
 ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
-.show-menu {
+/*.show-menu {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: #fff;
-	background: #19c589;
+	background: #FFA319;
 	text-align: center;
 	padding: 10px 0;
 	display: none;
@@ -102,7 +103,7 @@ input[type=checkbox] {
 }
 input[type=checkbox]:checked ~ #menu {
 	display: block;
-}
+}*/
 @media screen and (max-width: 760px) {
 	ul {
 		position: static;
@@ -114,8 +115,30 @@ input[type=checkbox]:checked ~ #menu {
 	ul li, li a {
 		width: 100%;
 	}
-	.show-menu {
+
+	/*.show-menu {
 		display: block;
-	}
+	}*/
 }
 
+article {
+	width: 90%;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 400;
+}
+
+#aboutpic {
+	background-image: url("beerpic.jpg");
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+footer {
+	background-color: #EBEBEB;
+	height: 70px;
+}
